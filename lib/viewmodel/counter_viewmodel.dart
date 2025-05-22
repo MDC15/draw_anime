@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_app/model/counter_model.dart'; // Changed to package import
+import 'package:flutter_app/model/counter_model.dart';
 
 class CounterViewModel extends ChangeNotifier {
   final CounterModel _counter = CounterModel();
