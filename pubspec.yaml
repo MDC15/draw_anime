@@ -1,16 +1,21 @@
 name: flutter_app
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.4.3 <4.0.0'
+  sdk: ">=3.4.3 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-  provider: ^6.1.2 # Added provider
+  provider: ^6.1.5
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  image_editor: ^1.6.0
+  camera: ^0.11.1
+  smooth_page_indicator: ^1.2.1
 
 dev_dependencies:
   flutter_test:
@@ -19,3 +24,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
